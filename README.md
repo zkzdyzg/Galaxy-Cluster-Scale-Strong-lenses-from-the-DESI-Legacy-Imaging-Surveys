@@ -1,4 +1,4 @@
-#Galaxy Cluster Strong Lensing Candidates from DESI Legacy Imaging Surveys
+Galaxy Cluster Strong Lensing Candidates from DESI Legacy Imaging Surveys
 
 This repository contains all galaxy cluster strong lensing candidates identified by our work in the DESI Legacy Imaging Surveys.
 
@@ -7,25 +7,29 @@ Dataset Description
 
 File Structure
 
-All_candidates.csv: Complete dataset containing all candidates
-Grade_A.csv: Contains only candidates with grade A
-Grade_B.csv: Contains only candidates with grade B
-Grade_C.csv: Contains only candidates with grade C
-Column Descriptions
+All_candidates.csv: Complete dataset containing all candidates;
+Grade_A.csv: Contains only candidates with grade A;
+Grade_B.csv: Contains only candidates with grade B;
+Grade_C.csv: Contains only candidates with grade C;
 
 
-All CSV files contain the following columns:
+All CSV files contain the following columns. Column Description	Units:
 
-Column	Description	Units
+CLUSTER_ID	  Cluster ID from Zou et al. 2021	-http://dx.doi.org/10.3847/1538-4365/abe5b0
 
-CLUSTER_ID	Cluster ID from Zou et al. 2021	-http://dx.doi.org/10.3847/1538-4365/abe5b0
-RA_BCG	Right Ascension of the Brightest Cluster Galaxy (BCG)	degrees
-DEC_BCG	Declination of the Brightest Cluster Galaxy (BCG)	degrees
-PZ_BCG	Photometric redshift of the BCG	
-R_500	Characteristic radius	Mpc
-M_500	Mass within R_500	log_10{M☉}
-SHAPE_R_BCG	Effective radius of the BCG	arcsec
-GRADE	Our grade assigning for this candidate (A, B, C - see our paper)	-
+RA_BCG	Right Ascension of the Brightest Cluster Galaxy (BCG),	degrees;
+
+DEC_BCG	Declination of the Brightest Cluster Galaxy (BCG),	degrees;
+
+PZ_BCG	Photometric redshift of the BCG;
+
+R_500	Characteristic radius	Mpc;
+
+M_500	Mass within R_500, log_10{M☉};
+
+SHAPE_R_BCG	Effective radius of the BCG, arcsec;
+
+GRADE	Our grade assigning for this candidate (A, B, C - see our paper);	
 
 
 Rating System Description
